@@ -3,15 +3,16 @@
 <body>
   <style>
     body{
-      background-color:salmon;  
-      font-family: sans-serif, monospace;
+      background-color:rgb(172,172,172);  
+      font-family: "roboto","open sans",sans-serif, monospace;
     }
     #the-heading{
       margin-left:50%;
+      color:rgb(209,12,22);
     }
   </style>
   <h1 id="the-heading">COVID-19</h1>
-  <h3 id=more-info>This webpage documents all that is happening during these uncertain times</h3>
+  <h3 id="more-info">This webpage documents all that is happening during these uncertain times</h3>
   <p class="paragraphs" id="1">COVID-19 had it's first cas reported in Wuhan, China in December 2019. Cases were spiking there throughout January and we didnot take it seriously. People on the internet made jokes about it and there were people who had not even heard of it. If Italy had
   not been hit first, America would have had this disease <em>far</em> worse.
   </p>
