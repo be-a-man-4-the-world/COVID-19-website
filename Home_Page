@@ -7,17 +7,19 @@
       font-family: "roboto","open sans",sans-serif, monospace;
     }
     #the-heading{
-      margin-left:50%;
+      margin-left:20%;
       color:rgb(209,12,22);
     }
+    #corona-cell{
+        margin-left:30px;
+    }
   </style>
-  <h1 id="the-heading">COVID-19</h1>
+  <h1 id="the-heading">This is the unofficial website for COVID-19</h1>
   <h3 id="more-info">This webpage documents all that is happening during these uncertain times</h3>
-  <p class="paragraphs" id="1">COVID-19 had it's first cas reported in Wuhan, China in December 2019. Cases were spiking there throughout January and we didnot take it seriously. People on the internet made jokes about it and there were people who had not even heard of it. If Italy had
-  not been hit first, America would have had this disease <em>far</em> worse.
-  </p>
-  <p class="paragraphs" id="2">Italy was struck hard. Hospitals were overfilled, streets were crowded, and people were put on stay at home orders. This meant that most of the country was forced to stay at home or they would be arrested.
-  </p>
+  <img src="https://media.springernature.com/w580h326/nature-cms/uploads/collections/2AP1TD2-b598c7937e0cb7c3ddb3d98f6d897d82.jpg" width="20%></img>
+   <ul>
+      <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/index.html#cdc-chat-bot-open">Click here for symptoms and how to stop the spread.</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Coronavirus_disease_2019"> Click here for the history of the coronavirus. From wikipedia.</a></li>
+    </ul>
   </body>
   </html>
-  
