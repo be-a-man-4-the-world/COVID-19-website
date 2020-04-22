@@ -5,26 +5,85 @@
     </head>
 <body>
   <style>
-    body{
-      background-color:rgb(172,172,172);  
-      font-family: "roboto","open sans",sans-serif, monospace;
-    }
-    #the-heading{
-      margin:10px auto 5px auto;
-      color:rgb(209,12,22);
-      border:5px outset;
-    }
-    #corona-cell{
-        margin-left:30px;
-    }
+   body{
+  background-color:rgb(183, 236, 237);
+}
+h1{
+  width:11.1%;
+  margin:10px auto 10px auto;
+  border:5px inset;
+  background-color:rgb(212, 212, 212);
+  border-color:rgb(143, 143, 143);
+  padding:2px 3px 2px 3px;
+  height:34px;
+}
+li{
+  display:inline;
+}
+#links{
+  margin:0px auto 3px auto;
+  width:550px;
+  border:solid 4px;
+  background-color:rgb(196, 196, 196);
+}
+#home{
+  background-color:rgb(153,153,255);
+  border:outset 5px;
+  border-color:rgb(153,153,255);
+  padding:5px;
+}
+#history{
+  background-color:rgb(196,196,255);
+  border:outset 5px;
+  border-color:rgb(153,153,255);
+  margin-left:10px;
+  padding:5px 5px 5px 5px;
+}
+#symptoms{
+   background-color:rgb(196,196,255);
+  border:outset 5px;
+  border-color:rgb(153,153,255);
+  margin-left:10px;
+ padding:5px 5px 5px 5px;
+}
+#prevent{
+   background-color:rgb(196,196,255);
+  border:outset 5px;
+  border-color:rgb(153,153,255);
+  margin-left:10px;
+  padding:5px 5px 5px 5px;
+}
+#sources{
+   background-color:rgb(196,196,255);
+  border:outset 5px;
+  border-color:rgb(153,153,255);
+  margin-left:10px;
+  padding:5px 5px 5px 5px;
+}
+#website-greeting{
+  border:4px inset;
+  border-color:red;
+  background-color:rgb(224,227,193);
+  padding:2px 2px 2px 2px;
+  width:600px;
+  margin:10px auto 1px auto;
+  font-family:arial, cursive, sans-serif;
+}
   </style>
-  <h1 id="the-heading">This is the unofficial website for COVID-19</h1>
-  <h3 id="more-info">This webpage documents all that is happening during these uncertain times</h3>
-  <img src="https://media.springernature.com/w580h326/nature-cms/uploads/collections/2AP1TD2-b598c7937e0cb7c3ddb3d98f6d897d82.jpg" width="20%></img>
-   <ul>
-      <li><a href="symptoms">Click here for symptoms.</a></li>
-      <li><a href="history"> Click here for the history of the coronavirus. From wikipedia.</a></li>
-      <li><a href="spread"> Click here for how to stop the spread using simple household methods</a></li>
-    </ul>
+  <div>
+<h1>COVID-19</h1>
+</div>
+<div id="links">
+<ul>
+  <li id="home">Home</a></li>
+  <li id="history"><a href="history.html">History</a></li>
+  <li id="symptoms"><a href="symptoms.html">Symptoms</a></li>
+  <li id="prevent"><a href="prevent.html">Prevent the Spread</a></li>
+  <li id="sources"><a href="sources.html">Sources</a></li>
+  </div>  
+  <div id="website-greeting">
+  <p>Hello, welcome to this website about COVID-19. It is a project from a bored high school student who is out of school. This website is a passion project because I've wanted to code since the beggining of freshman year. <i><b>One thing to note, I am not a historian and all of my facts will be on the source page.</i></b> If you have notes about this site, my email is <a href="mailto:philip.johnson@cttech.org">here</a>
+    </p>
+  </div>
   </body>
   </html>
