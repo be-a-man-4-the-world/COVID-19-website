@@ -1,5 +1,8 @@
 <!DOCTYPE>
   <html>
+	<head>
+    <title>history</title>
+  </head>
     <style>
       body{
         baclground-color:rgb(209, 206, 206);
