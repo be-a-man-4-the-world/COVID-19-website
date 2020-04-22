@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+   <head>
+        <title>Covid-19 Webpage</title>
+    </head>
 <body>
   <style>
     body{
@@ -7,8 +10,9 @@
       font-family: "roboto","open sans",sans-serif, monospace;
     }
     #the-heading{
-      margin-left:20%;
+      margin:10px auto 5px auto;
       color:rgb(209,12,22);
+      border:5px outset;
     }
     #corona-cell{
         margin-left:30px;
@@ -19,7 +23,7 @@
   <img src="https://media.springernature.com/w580h326/nature-cms/uploads/collections/2AP1TD2-b598c7937e0cb7c3ddb3d98f6d897d82.jpg" width="20%></img>
    <ul>
       <li><a href="symptoms">Click here for symptoms.</a></li>
-      <li><a href="History"> Click here for the history of the coronavirus. From wikipedia.</a></li>
+      <li><a href="history"> Click here for the history of the coronavirus. From wikipedia.</a></li>
       <li><a href="spread"> Click here for how to stop the spread using simple household methods</a></li>
     </ul>
   </body>
